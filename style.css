@@ -1,0 +1,204 @@
+/*home page*/
+img.top{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    position: absolute;
+    min-height: 25vh;
+    top: 0vw;
+    left: 0vh;
+    right: 0vh;
+}
+
+body.homepage{
+    margin: 0;
+    margin-top: 25vh;
+}
+
+div.container{
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+#picture{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0vmin;
+    left: 0vh;
+    height: 100%;
+    width: 100%;
+}
+
+div.container ul{
+    margin: 0 auto;
+    margin-top: 25vh;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    list-style: none;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container .cont div a{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+    width: 100vh;
+}
+
+.container .cont div a:hover{
+    color: gold;
+}
+.cont div{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.cont div:hover{
+    animation-name: opacity;
+    animation-duration: 0.5s;
+    font-size: 5em;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opacity{
+    0% {opacity: 60%;}
+    100% {opacity: 20%;}
+}
+
+footer.contacts{
+    margin-top: 90vh;
+    text-align: center;
+}
+
+a.footer{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer:hover{
+    color: gold;
+}
+
+/*contact page*/
+h1{
+    text-align: center;
+    color: white;
+    background-color: aqua;
+    font-size: 3em;
+}
+
+div.members ul li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+div.members ul li a:hover{
+    text-decoration: none;
+    font-size: 2em;
+    color: aqua;
+    font-weight: 700;
+}
+
+body.contacts{
+    margin-top: 0vh;
+}
+
+div.members{
+    background-image: url('C:/Users/User/Downloads/ezgif.com-gif-maker (2).gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0vmin;
+    left: 0vh;
+    height: 100%;
+    width: 100%;
+}
+
+div.members img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    transition: 0.5s;
+    padding: 1vmin;
+    background-color: greenyellow;
+    margin-top: 15%;
+}
+
+div.members p{
+    font-size: 3em;
+    color: white;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+a.prog{
+    margin-bottom: 15%;
+}
+
+body.contacts .container{
+    text-align: center;
+}
+
+/*characters*/
+body.characters div img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+body.characters div img:hover{
+    animation: characters;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes characters{
+    0% {width: 200px; height: 200px;}
+    100% {width: 250px; height: 250px;}
+}
+
+#char{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0vmin;
+    left: 0vh;
+    height: 100%;
+    width: 100%;
+}
+
+/*artifacts*/
+html.Artifacts{
+    background-image: url('pictures/ezgif.com-gif-maker (1).gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+html.artifacts div{
+    text-align: center;
+}
+
+#artlist li{
+    list-style-type: none;
+}
